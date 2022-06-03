@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [ERP Stock Accounting]" guice-stage="DEVELOPMENT">
+  <parameter name="password" value="master"/>
+  <parameter name="url" value="http://webapp.qedgetech.com/login.php"/>
+  <parameter name="username" value="admin"/>
+  <listeners>
+    <listener class-name="commonMethods.ListenerTest"/>
+  </listeners>
+  <test thread-count="1" parallel="methods" name="LoginPage Module(failed)">
+    <classes>
+      <class name="testNGScripts.LoginModule">
+        <methods>
+          <include name="close_Application"/>
+          <include name="launch_Application"/>
+          <include name="TC2_Logout"/>
+        </methods>
+      </class> <!-- testNGScripts.LoginModule -->
+    </classes>
+  </test> <!-- LoginPage Module(failed) -->
+</suite> <!-- Failed suite [ERP Stock Accounting] -->

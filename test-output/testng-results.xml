@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-02T08:56:58 IST" name="ERP Stock Accounting" finished-at="2022-06-02T08:57:13 IST" duration-ms="14866">
+    <groups>
+    </groups>
+    <test started-at="2022-06-02T08:56:58 IST" name="LoginPage Module" finished-at="2022-06-02T08:57:13 IST" duration-ms="14866">
+      <class name="testNGScripts.StockItemsModule">
+        <test-method is-config="true" signature="launch_Application(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testNGScripts.StockItemsModule@272ed83b]" started-at="2022-06-02T08:56:58 IST" name="launch_Application" finished-at="2022-06-02T08:57:05 IST" duration-ms="7701" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[master]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[http://webapp.qedgetech.com/login.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_Application -->
+        <test-method signature="TC9_Verify_admin_user_is_able_to_create_new_stockItem()[pri:0, instance:testNGScripts.StockItemsModule@272ed83b]" started-at="2022-06-02T08:57:05 IST" name="TC9_Verify_admin_user_is_able_to_create_new_stockItem" finished-at="2022-06-02T08:57:12 IST" duration-ms="6976" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC9_Verify_admin_user_is_able_to_create_new_stockItem -->
+        <test-method is-config="true" signature="close_Application()[pri:0, instance:testNGScripts.StockItemsModule@272ed83b]" started-at="2022-06-02T08:57:12 IST" name="close_Application" finished-at="2022-06-02T08:57:13 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Application -->
+      </class> <!-- testNGScripts.StockItemsModule -->
+    </test> <!-- LoginPage Module -->
+  </suite> <!-- ERP Stock Accounting -->
+</testng-results>

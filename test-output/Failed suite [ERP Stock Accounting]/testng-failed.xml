@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="methods" name="Failed suite [Failed suite [ERP Stock Accounting]]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="methods" name="LoginPage Module(failed)(failed)">
+    <classes>
+      <class name="testNGScripts.LoginModule">
+        <methods>
+          <include name="TC4_RESET"/>
+          <include name="close_Application"/>
+          <include name="launch_Application"/>
+        </methods>
+      </class> <!-- testNGScripts.LoginModule -->
+    </classes>
+  </test> <!-- LoginPage Module(failed)(failed) -->
+  <test thread-count="1" parallel="methods" name="HomePage Module(failed)(failed)">
+    <classes>
+      <class name="testNGScripts.HomePageModule">
+        <methods>
+          <include name="TC6_AccessToCustomersPage"/>
+          <include name="close_Application"/>
+          <include name="launch_Application"/>
+        </methods>
+      </class> <!-- testNGScripts.HomePageModule -->
+    </classes>
+  </test> <!-- HomePage Module(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [ERP Stock Accounting]] -->

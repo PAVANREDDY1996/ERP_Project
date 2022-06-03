@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ERP Stock Accounting" parallel="methods" thread-count="1" >
+  <listeners>
+     <listener class-name="commonMethods.ListenerTest"/>
+  </listeners>
+  <parameter name = "url" value = "http://webapp.qedgetech.com/login.php"/>
+  <parameter name="username" value="admin"/>
+  <parameter name="password" value="master"/>
+  <test name="LoginPage Module">
+    <classes>
+      <class name="testNGScripts.StockItemsModule"/>
+    </classes>
+  </test>
+</suite>
